@@ -1,48 +1,66 @@
-# 📊 Data Visualization Portfolio
+Welcome to my Data Analysis Portfolio!  
+This repository combines two major projects:
 
-Welcome to my Data Visualization Portfolio!  
-This repository showcases my projects focused on transforming raw data into meaningful insights using visual tools and libraries.
+1. 📈 Data Visualization Project  
+2. 💬 Sentiment Analysis Project  
+
+Together, these projects demonstrate my ability to work with data — from cleaning and visualization to extracting insights using machine learning.
 
 ---
 
-## 🚀 About This Repository
+## 🚀 Projects Overview
 
-This portfolio contains multiple data visualization projects where I explore datasets, analyze patterns, and present insights using clear and interactive visuals.
+### 📊 1. Data Visualization Project
 
-Each project demonstrates:
+This project focuses on exploring datasets and presenting insights through meaningful visualizations.
+
+#### 🔹 Key Features:
 - Data cleaning and preprocessing
 - Exploratory Data Analysis (EDA)
-- Visualization techniques
-- Insight generation
+- Visualizations using charts and graphs
+- Insight generation from data
 
----
-
-## 🛠️ Tools & Technologies Used
-
-- Python 🐍
+#### 🛠️ Tools Used:
+- Python
 - Pandas
 - NumPy
 - Matplotlib
 - Seaborn
-- Plotly (if used)
-- Jupyter Notebook
+
+---
+
+### 💬 2. Sentiment Analysis Project
+
+This project analyzes text data to determine sentiment (positive, negative, neutral).
+
+#### 🔹 Key Features:
+- Text preprocessing (tokenization, stopword removal)
+- Sentiment classification
+- Basic Natural Language Processing (NLP)
+- Model building and evaluation
+
+#### 🛠️ Tools Used:
+- Python
+- Pandas
+- Scikit-learn
+- NLTK / TextBlob (if used)
 
 ---
 
 ## 📁 Project Structure
 
 
-data-viz-portfolio/
+project-repo/
 │
-├── Project_1/
-│ ├── dataset.csv
-│ ├── analysis.ipynb
-│ └── output_visuals/
+├── data-visualization/
+│ ├── datasets/
+│ ├── notebooks/
+│ └── outputs/
 │
-├── Project_2/
-│ ├── dataset.csv
-│ ├── analysis.ipynb
-│ └── output_visuals/
+├── sentiment-analysis/
+│ ├── datasets/
+│ ├── notebooks/
+│ └── model/
 │
 └── README.md
 
@@ -51,38 +69,27 @@ data-viz-portfolio/
 
 ## 📌 Key Highlights
 
-- 📈 Clear and meaningful visualizations
-- 🔍 Insight-driven analysis
+- 📊 Strong data visualization skills
+- 🧠 Basic machine learning & NLP knowledge
+- 🔍 Insight-driven approach
 - 🧹 Clean and structured code
-- 📊 Real-world datasets
+- 📁 Well-organized project layout
 
 ---
-
-## 📷 Sample Visualizations
-
-(Add screenshots or output images here)
-
----
-
-## 💡 How to Use
+## 💡 How to Run
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/data-viz-portfolio.git
+   git clone https://github.com/your-username/project-repo.git
 
-Navigate to the project folder:
+Navigate to the folder:
 
-cd data-viz-portfolio
+cd project-repo
 
-Open Jupyter Notebook:
+Install dependencies:
+
+pip install -r requirements.txt
+
+Run Jupyter Notebook:
 
 jupyter notebook
-🎯 Purpose
-
-This repository is created to:
-
-Showcase my data visualization skills
-
-Practice real-world data analysis
-
-Build a strong portfolio for internships and job opportunities
